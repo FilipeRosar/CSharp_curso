@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerate", "Enumerate\Enumerate.csproj", "{CAC5BDC2-3A62-476D-B987-CE0839DB071E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC5BDC2-3A62-476D-B987-CE0839DB071E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC5BDC2-3A62-476D-B987-CE0839DB071E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC5BDC2-3A62-476D-B987-CE0839DB071E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC5BDC2-3A62-476D-B987-CE0839DB071E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1059FCF-4D70-4198-9759-D54DCA140369}
+	EndGlobalSection
+EndGlobal

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Globalization;
-using ListExercicio1;
+
 
 namespace ListExercicio1
 {
