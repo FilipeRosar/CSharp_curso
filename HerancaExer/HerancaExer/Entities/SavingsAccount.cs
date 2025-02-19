@@ -1,13 +1,13 @@
 ﻿
 namespace HerancaExer.Entities
 {
-    class SavingsAccount : Account
+    sealed class SavingsAccount : Account
     {
         public double InterestRate { get; set; }
 
         public SavingsAccount() { }
 
-        public SavingsAccount(int number, string holder, double balance, double interestRate) 
+        public SavingsAccount(int number, string holder, double balance, double interestRate)
             : base(number, holder, balance)
         {
             InterestRate = interestRate;
@@ -18,9 +18,9 @@ namespace HerancaExer.Entities
             Balance += Balance * InterestRate;
         }
 
-        public override void Withdraw(double amount) 
+        public sealed override void Withdraw(double amount)
         {
-            base.Withdraw(amount); 
+            base.Withdraw(amount);
             Balance -= 2.0;
         }
     }

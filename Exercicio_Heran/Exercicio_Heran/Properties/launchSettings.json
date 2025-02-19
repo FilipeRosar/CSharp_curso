@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Exercicio_Heran": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
